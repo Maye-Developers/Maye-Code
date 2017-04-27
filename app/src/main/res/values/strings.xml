@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Maye</string>
+    <string name="action_settings">Settings</string>
+    <string name="kullanici_adi_yada_mail">Kullanıcı Adı yada Mail</string>
+    <string name="sifre">Şifre</string>
+    <string name="giris_yap">Giriş Yap</string>
+    <string name="logo">logo</string>
+    <string name="title_activity_kayit">KayitActivity</string>
+    <string name="title_activity_index">MAYE : Kodlama Öğren</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+</resources>

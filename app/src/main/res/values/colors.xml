@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#324065</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgcolor">#324065</color>
+    <color name="beyaz">#FFFFFF</color>
+    <color name="textcolor">#dddedd</color>
+    <color name="progressbg">#ddded9</color>
+    <color name="aciklamabg">#777874</color>
+    <color name="yesil">#aacd6e</color>
+    <color name="laci">#324065</color>
+    <color name="gri">#a4a1a1</color>
+    <color name="dropArka">#282c2b</color>
+    <color name="dropUst">#333</color>
+    <color name="pembe">#f94f6a</color>
+    <color name="turuncu">#f68657</color>
+    <color name="darkturuncu">#ff5f2f</color>
+    <color name="mavi">#008b9e</color>
+    <color name="sari">#ffc952</color>
+    <color name="darkyesil">#74d702</color>
+</resources>

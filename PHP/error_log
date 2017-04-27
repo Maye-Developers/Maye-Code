@@ -1,0 +1,3 @@
+[08-May-2016 01:13:46 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/ertugrulungor/public_html/android/adimGonder.php on line 72
+[08-May-2016 01:16:47 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/ertugrulungor/public_html/android/adimGonder.php on line 73
+[08-May-2016 01:19:13 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 130968 bytes) in /home/ertugrulungor/public_html/android/adimGonder.php on line 67

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.l4d.maye.SocialActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="230dp"
+        android:layout_gravity="center"
+        android:layout_height="100dp"
+        android:background="@drawable/ekiplogo"
+        android:id="@+id/imageSwitcher"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_below="@+id/imageSwitcher"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout1"
+        android:layout_margin="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:layout_height="80dp"
+                android:background="@drawable/facebook"
+                android:id="@+id/facebook"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facebook : L4D Geliitirici Takımı"
+                android:layout_marginTop="30dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="80dp"
+                android:layout_gravity="left"
+                android:layout_height="80dp"
+                android:background="@drawable/twitter"
+                android:id="@+id/twitter"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Twitter : @l4developer"
+                android:layout_marginTop="30dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            > <ImageView
+            android:layout_margin="5dp"
+            android:layout_width="80dp"
+            android:layout_gravity="left"
+            android:layout_height="80dp"
+            android:background="@drawable/instagram"
+            android:id="@+id/instagram"
+            android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instagram : @l3developer"
+                android:layout_marginTop="30dp"
+
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

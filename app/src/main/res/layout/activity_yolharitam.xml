@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.l4d.maye.yolharitamActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Yol Haritam"
+            android:textColor="@color/pembe"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageSwitcher
+                android:layout_marginLeft="20dp"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:background="@drawable/html"
+                android:id="@+id/html">
+            </ImageSwitcher>
+            <ImageView
+                android:layout_margin="5dp"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:background="@drawable/location"
+                android:id="@+id/location">
+            </ImageView>
+        </LinearLayout>
+
+        <ImageSwitcher
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/arrow_1"
+            android:id="@+id/arrow1"
+            android:layout_below="@+id/html"
+            android:layout_centerHorizontal="true">
+        </ImageSwitcher>
+        <ImageSwitcher
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/css"
+            android:id="@+id/css"
+            android:layout_below="@+id/arrow1"
+            android:layout_centerHorizontal="true">
+        </ImageSwitcher>
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/arrow_2"
+            android:id="@+id/arrow2"
+            android:layout_below="@+id/css"
+            android:layout_centerHorizontal="true">
+        </ImageView>
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:background="@drawable/js"
+            android:id="@+id/imageSwitcher"
+            android:layout_below="@+id/arrow2"
+            android:layout_centerHorizontal="true">
+        </ImageView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

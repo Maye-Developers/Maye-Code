@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/quiz"
+            android:icon="@drawable/ic_school_black_24dp"
+            android:title="Quiz"/>
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_room_black_24dp"
+            android:title="Yol Haritam"/>
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Ayarlar"/>
+
+    </group>
+
+    <item android:title="Diğer">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylaş" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/ic_input_black_24dp"
+                android:title="Çıkış" />
+        </menu>
+    </item>
+
+</menu>
